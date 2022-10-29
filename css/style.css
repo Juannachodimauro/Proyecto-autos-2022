@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder; }
+
+.container-fluid {
+  padding: 0px; }
+  .container-fluid .barraPrincipal {
+    background-color: blue;
+    height: 50px;
+    margin: 0px;
+    padding: 0px; }
+  .container-fluid .logo {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    position: absolute;
+    margin: 0px; }
+
+.navBar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1px;
+  margin: 0px; }
+  .navBar li {
+    list-style: none;
+    margin: 0px; }
+  .navBar a {
+    font-size: 20PX;
+    font-weight: bolder;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    padding: 5px; }
+
+footer {
+  background-color: blue;
+  height: 60px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  flex-wrap: wrap; }
+  footer p {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap; }
+  footer .logos {
+    width: 20px;
+    height: 20px; }
+  footer .redes {
+    display: flex;
+    justify-content: end;
+    align-content: flex-end;
+    flex-wrap: wrap; }
+
+.almaMia, .km, .km_1, .km_2 {
+  background-image: url(../assents/image/index.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  font-size: 80px;
+  flex-wrap: wrap;
+  margin: 0px;
+  transition: width 2s, heught2s; }
+
+.almaMia:hover, .km:hover, .km_1:hover, .km_2:hover {
+  font-size: 120px; }
+
+.buscador {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.vendidos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px; }
+  .vendidos .carousel {
+    width: 400px;
+    height: 400px; }
+
+.km {
+  background-image: url(../assents/image/Rectangle14.png); }
+
+.km:hover {
+  font-size: 120px; }
+
+.card-group {
+  display: grid;
+  grid-template-columns: repeat(5 1fr);
+  grid-template-areas: "card-1 card-2 card-3 card-4 siguiente";
+  margin: 20px; }
+  .card-group .card-img-top {
+    width: 300px;
+    height: 400px; }
+
+.card-1 {
+  grid-area: card-1; }
+
+.card-2 {
+  grid-area: card-2; }
+
+.card-3 {
+  grid-area: card-3; }
+
+.card-4 {
+  grid-area: card-4; }
+
+.siguiente {
+  grid-area: siguiente;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+a {
+  list-style: none;
+  color: black; }
+
+.km_1 {
+  background-image: url(../assents/image/Rectangle9.png); }
+
+.km_1:hover {
+  font-size: 120px; }
+
+.card img {
+  width: 1200px;
+  height: 300px; }
+
+.km_2 {
+  background-image: url("../../assents/image/motosindex.png"); }
+
+.contacto {
+  background-image: url("../../assents/image/contactanos.png");
+  background-color: aquamarine; }

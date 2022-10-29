@@ -1,0 +1,24 @@
+footer{
+    background-color:$background-principal;
+    height: 60px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    p {
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+    } 
+    .logos{
+        width: 20px;
+        height: 20px;
+        }
+    .redes{
+    display: flex;
+    justify-content: end;
+    align-content: flex-end;
+    flex-wrap: wrap;
+        }
+}

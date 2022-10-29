@@ -1,0 +1,31 @@
+.almaMia{
+    background-image: url(../assents/image/index.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    font-size: 80px;
+    flex-wrap: wrap;
+    margin: 0px;
+    transition: width 2s, heught2s;
+    }
+    .almaMia:hover{
+        font-size: 120px;
+    }
+.buscador{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vendidos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    .carousel {
+        width: 400px;
+        height: 400px;
+    }
+}

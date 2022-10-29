@@ -1,0 +1,45 @@
+.km{
+    @extend .almaMia;
+    background-image: url(../assents/image/Rectangle14.png);
+    }
+    .km:hover{
+        font-size: 120px;   
+    }
+
+.card-group{
+    display: grid;
+    grid-template-columns: repeat(5 1fr);
+    grid-template-areas: 
+    "card-1 card-2 card-3 card-4 siguiente";
+    margin: 20px;
+    .card-img-top{
+        width: 300px;
+        height: 400px;
+    }
+    }
+
+    .card-1{
+        grid-area: card-1;
+    }
+    .card-2{
+        grid-area: card-2;
+    }
+    .card-3{
+        grid-area: card-3;
+    }
+    .card-4{
+        grid-area: card-4;
+    }
+
+    .siguiente{
+        grid-area: siguiente;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+a{
+    list-style: none;
+    color: $color-text-primario;
+    }
+    
