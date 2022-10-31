@@ -1,4 +1,5 @@
 @import "./utilities/variable";
+@import "./utilities/mixins";
 @import "./base/reset";
 @import "./base/typo";
 @import "./layout/header.scss";
@@ -7,4 +8,5 @@
 @import "./layout/main-okms.scss";
 @import "./layout/index-usados.scss";
 @import "./layout/main-motos.scss";
-@import "./layout/index-nosotros.scss"
+@import "./layout/index-nosotros.scss";
+@import "./layout/media-mobile"

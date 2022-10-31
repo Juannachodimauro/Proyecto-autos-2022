@@ -1,0 +1,12 @@
+@mixin props-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+@mixin sig-flex{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    
+}
