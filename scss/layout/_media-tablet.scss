@@ -1,0 +1,123 @@
+@media (max-width: 768px) {
+    .container-fluid{
+        background-color: $background-principal;
+        height: 30px;
+        .logo{
+            width: 30px;
+            height: 30px;
+            display: flex;
+            position: absolute; 
+        }
+        .navBar {
+            display: flex;
+            justify-content: flex-end;
+            padding: 1px;
+        }
+        li {
+            list-style: none;
+            a {
+            font-size: 10PX;
+            font-weight: bolder;
+            display: flex;
+            text-decoration: none;
+            color: black;
+            padding: 5px;
+            }
+        }
+    }
+    
+    
+    
+    footer{
+        background-color: $background-principal;
+        height: 30px;
+        padding-right: 10px;
+        margin-top: 0px 
+        }
+        p{
+            display: flex;
+            align-content: center;
+            flex-wrap: wrap;
+        }
+        .logos{
+            width: 20px;
+            height: 20px;
+            }
+            .redes{
+            display: flex;
+            justify-content: end;
+            align-content: flex-end;
+            flex-wrap: wrap;
+            }
+        .container-fluid-okm{
+            margin-top: 260px;
+        }
+    main{
+        height: 768px;
+    }
+    .almaMia{
+        background-image: url(../assents/image/index576.png);
+        height: 250px;
+        font-size: 35px;
+    }
+    .almaMia:hover{
+        font-size: 60px;
+    }
+    
+    .buscador{
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .vendidos{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    h2{
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .carousel {
+        width: 300px;
+        height: 300px;
+    }
+    }
+    .km{
+        background-image: url(../assents/image/Rectangle14576.png);
+        height: 250px;
+        font-size: 35px;
+    .siguiente{
+        margin-bottom: 10px;
+    }
+    }
+    
+    .card-group{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-template-areas: 
+        "card-1 card-2"
+        "card-3 card-4"
+        ;
+        .card-img-top{
+            width: 250px ;
+            height: 250px;
+            margin: 20px;
+            }
+        .card-title{
+            font-size: 15px;
+            margin-left: 30px;
+        }
+    }
+    .km_1{
+        background-image: url(../assents/image/Rectangle9.png);
+        margin-bottom: 30px;
+    }
+    
+    
+    }

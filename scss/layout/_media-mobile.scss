@@ -32,6 +32,7 @@ footer{
     background-color: $background-principal;
     height: 30px;
     padding-right: 10px;
+    padding-top: 20px;
     }
     p{
         display: flex;
@@ -55,7 +56,12 @@ main{
     background-image: url(../assents/image/index576.png);
     height: 200px;
     font-size: 30px;
+    
 }
+.almaMia:hover{
+    font-size: 60px;
+}
+
 
 .buscador{
     font-size: 10px;
@@ -65,7 +71,8 @@ main{
     align-items: center;
 }
 .vendidos{
-    margin-top: 10vh;
+    margin-top: 50px;
+    margin-bottom: 100px;
 h2{
     font-size: 20px;
     display: flex;
@@ -75,6 +82,7 @@ h2{
 .carousel {
     width: 200px;
     height: 200px;
+    padding-bottom: 30px;
 }
 }
 .km{

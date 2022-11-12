@@ -68,15 +68,18 @@ footer {
   margin: 0px;
   transition: width 2s, heught2s; }
 
-.almaMia:hover, .km:hover, .km_1:hover, .km_2:hover {
-  font-size: 120px; }
-
 .buscador {
   font-size: 20px;
   font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center; }
+
+h3 {
+  color: white;
+  background-color: blue;
+  display: flex;
+  justify-content: center; }
 
 .vendidos {
   display: flex;
@@ -135,6 +138,9 @@ a {
   width: 1200px;
   height: 300px; }
 
+.km_2 {
+  background-image: url(../../assents/image/motosindex.png); }
+
 .siguiente {
   display: flex;
   justify-content: end;
@@ -142,6 +148,98 @@ a {
 
 .contacto {
   height: 100vh; }
+  .contacto label {
+    color: white; }
+
+@media (max-width: 768px) {
+  .container-fluid {
+    background-color: blue;
+    height: 30px; }
+    .container-fluid .logo {
+      width: 30px;
+      height: 30px;
+      display: flex;
+      position: absolute; }
+    .container-fluid .navBar {
+      display: flex;
+      justify-content: flex-end;
+      padding: 1px; }
+    .container-fluid li {
+      list-style: none; }
+      .container-fluid li a {
+        font-size: 10PX;
+        font-weight: bolder;
+        display: flex;
+        text-decoration: none;
+        color: black;
+        padding: 5px; }
+  footer {
+    background-color: blue;
+    height: 30px;
+    padding-right: 10px;
+    margin-top: 0px; }
+  p {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap; }
+  .logos {
+    width: 20px;
+    height: 20px; }
+  .redes {
+    display: flex;
+    justify-content: end;
+    align-content: flex-end;
+    flex-wrap: wrap; }
+  .container-fluid-okm {
+    margin-top: 260px; }
+  main {
+    height: 768px; }
+  .almaMia, .km, .km_1, .km_2 {
+    background-image: url(../assents/image/index576.png);
+    height: 250px;
+    font-size: 35px; }
+  .almaMia:hover, .km:hover, .km_1:hover, .km_2:hover {
+    font-size: 60px; }
+  .buscador {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px; }
+  .vendidos {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    .vendidos h2 {
+      font-size: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .vendidos .carousel {
+      width: 300px;
+      height: 300px; }
+  .km {
+    background-image: url(../assents/image/Rectangle14576.png);
+    height: 250px;
+    font-size: 35px; }
+    .km .siguiente {
+      margin-bottom: 10px; }
+  .card-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "card-1 card-2" "card-3 card-4"; }
+    .card-group .card-img-top {
+      width: 250px;
+      height: 250px;
+      margin: 20px; }
+    .card-group .card-title {
+      font-size: 15px;
+      margin-left: 30px; }
+  .km_1 {
+    background-image: url(../assents/image/Rectangle9.png);
+    margin-bottom: 30px; } }
 
 @media (max-width: 576px) {
   .container-fluid {
@@ -168,7 +266,8 @@ a {
   footer {
     background-color: blue;
     height: 30px;
-    padding-right: 10px; }
+    padding-right: 10px;
+    padding-top: 20px; }
   p {
     display: flex;
     align-content: center;
@@ -187,6 +286,8 @@ a {
     background-image: url(../assents/image/index576.png);
     height: 200px;
     font-size: 30px; }
+  .almaMia:hover, .km:hover, .km_1:hover, .km_2:hover {
+    font-size: 60px; }
   .buscador {
     font-size: 10px;
     font-weight: bold;
@@ -194,7 +295,8 @@ a {
     justify-content: center;
     align-items: center; }
   .vendidos {
-    margin-top: 10vh; }
+    margin-top: 50px;
+    margin-bottom: 100px; }
     .vendidos h2 {
       font-size: 20px;
       display: flex;
@@ -202,7 +304,8 @@ a {
       align-items: center; }
     .vendidos .carousel {
       width: 200px;
-      height: 200px; }
+      height: 200px;
+      padding-bottom: 30px; }
   .km {
     background-image: url(../assents/image/Rectangle14576.png);
     height: 200px;
