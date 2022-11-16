@@ -7,18 +7,19 @@
     flex-wrap: wrap;
     margin: 0px;
     transition: width 2s, heught2s;
+    
     }
 
 .buscador{
     font-size: 20px;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 10px;
+    color: black;
+    
 }
 h3{
-    color: white;
-    background-color: blue;
+    color:$color-text-primario;
+    background-color: $background-principal;
     display: flex;
     justify-content: center;
 }
@@ -31,5 +32,12 @@ h3{
     .carousel {
         width: 400px;
         height: 400px;
+        .card-title-1{
+            background-color:$background-principal;
+            direction: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
     }
 }

@@ -12,9 +12,10 @@
     grid-template-areas: 
     "card-1 card-2 card-3 card-4 siguiente";
     margin: 20px;
+    margin-left: 100px;
     .card-img-top{
-        width: 300px;
-        height: 400px;
+        width: 200px;
+        height: 300px;
     }
     }
 
@@ -30,16 +31,16 @@
     .card-4{
         grid-area: card-4;
     }
-
+    a{
+        list-style: none;
+        color: black;
+        }
+        
     .siguiente{
+        color: black;
         grid-area: siguiente;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-a{
-    list-style: none;
-    color: $color-text-primario;
-    }
-    

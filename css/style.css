@@ -11,10 +11,12 @@
   padding: 0px; }
   .container-fluid .barraPrincipal {
     background-color: blue;
+    color: white;
     height: 50px;
     margin: 0px;
     padding: 0px; }
   .container-fluid .logo {
+    color: white;
     width: 50px;
     height: 50px;
     display: flex;
@@ -22,10 +24,11 @@
     margin: 0px; }
 
 .navBar {
+  color: white;
   display: flex;
   justify-content: flex-end;
-  padding: 1px;
-  margin: 0px; }
+  padding: 3px;
+  margin: 1px; }
   .navBar li {
     list-style: none;
     margin: 0px; }
@@ -34,7 +37,7 @@
     font-weight: bolder;
     display: flex;
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 5px; }
 
 footer {
@@ -44,17 +47,20 @@ footer {
   display: flex;
   flex-direction: column-reverse;
   justify-content: flex-end;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-top: 80px; }
   footer p {
     display: flex;
     align-content: center;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    color: white; }
   footer .logos {
-    width: 20px;
-    height: 20px; }
+    width: 30px;
+    height: 30px; }
   footer .redes {
+    margin: 5px;
     display: flex;
-    justify-content: end;
+    justify-content: normal;
     align-content: flex-end;
     flex-wrap: wrap; }
 
@@ -71,9 +77,8 @@ footer {
 .buscador {
   font-size: 20px;
   font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  margin-top: 10px;
+  color: black; }
 
 h3 {
   color: white;
@@ -90,6 +95,12 @@ h3 {
   .vendidos .carousel {
     width: 400px;
     height: 400px; }
+    .vendidos .carousel .card-title-1 {
+      background-color: blue;
+      direction: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px; }
 
 .km {
   background-image: url(../assents/image/Rectangle14.png); }
@@ -101,10 +112,11 @@ h3 {
   display: grid;
   grid-template-columns: repeat(5 1fr);
   grid-template-areas: "card-1 card-2 card-3 card-4 siguiente";
-  margin: 20px; }
+  margin: 20px;
+  margin-left: 100px; }
   .card-group .card-img-top {
-    width: 300px;
-    height: 400px; }
+    width: 200px;
+    height: 300px; }
 
 .card-1 {
   grid-area: card-1; }
@@ -118,15 +130,16 @@ h3 {
 .card-4 {
   grid-area: card-4; }
 
+a {
+  list-style: none;
+  color: black; }
+
 .siguiente {
+  color: black;
   grid-area: siguiente;
   display: flex;
   justify-content: center;
   align-items: center; }
-
-a {
-  list-style: none;
-  color: black; }
 
 .km_1 {
   background-image: url(../assents/image/Rectangle9.png); }
@@ -138,8 +151,8 @@ a {
   width: 1200px;
   height: 300px; }
 
-.km_2 {
-  background-image: url(../../assents/image/motosindex.png); }
+.card-text {
+  color: black; }
 
 .siguiente {
   display: flex;
@@ -171,7 +184,7 @@ a {
         font-weight: bolder;
         display: flex;
         text-decoration: none;
-        color: black;
+        color: white;
         padding: 5px; }
   footer {
     background-color: blue;
@@ -181,7 +194,8 @@ a {
   p {
     display: flex;
     align-content: center;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    color: white; }
   .logos {
     width: 20px;
     height: 20px; }
@@ -201,12 +215,12 @@ a {
   .almaMia:hover, .km:hover, .km_1:hover, .km_2:hover {
     font-size: 60px; }
   .buscador {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 30px;
+    align-items: flex-end;
+    margin-top: 178px;
     margin-bottom: 20px; }
   .vendidos {
     margin-top: 20px;
@@ -251,6 +265,7 @@ a {
       display: flex;
       position: absolute; }
     .container-fluid .navBar {
+      color: white;
       display: flex;
       justify-content: flex-end;
       padding: 1px; }
@@ -261,7 +276,7 @@ a {
         font-weight: bolder;
         display: flex;
         text-decoration: none;
-        color: black;
+        color: white;
         padding: 5px; }
   footer {
     background-color: blue;
@@ -271,7 +286,8 @@ a {
   p {
     display: flex;
     align-content: center;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    color: white; }
   .logos {
     width: 20px;
     height: 20px; }
@@ -293,7 +309,8 @@ a {
     font-weight: bold;
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: flex-end;
+    margin-top: 140px; }
   .vendidos {
     margin-top: 50px;
     margin-bottom: 100px; }

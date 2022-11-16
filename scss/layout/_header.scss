@@ -2,11 +2,13 @@
     padding: 0px;
     .barraPrincipal{
         background-color: $background-principal;
+        color: $color-text-primario;
         height: 50px;
         margin: 0px;
         padding: 0px;
     }
     .logo{
+        color: $color-text-primario;
         width: 50px;
         height: 50px;
         display: flex;
@@ -15,10 +17,11 @@
     }
 }
 .navBar{
+    color: $color-text-primario;
     display:flex;
     justify-content: flex-end;
-    padding: 1px;
-    margin: 0px;
+    padding: 3px;
+    margin: 1px;
     li{
         list-style: none;
         margin: 0px;
@@ -28,7 +31,7 @@
         font-weight: bolder;
         display:flex;
         text-decoration: none;
-        color: black;
+        color: $color-text-primario;
         padding: 5px;
     }
 }

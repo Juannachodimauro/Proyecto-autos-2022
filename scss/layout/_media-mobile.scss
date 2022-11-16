@@ -9,6 +9,7 @@
         position: absolute; 
     }
     .navBar {
+        color: $color-text-primario;
         display: flex;
         justify-content: flex-end;
         padding: 1px;
@@ -20,7 +21,7 @@
         font-weight: bolder;
         display: flex;
         text-decoration: none;
-        color: black;
+        color: $color-text-primario;
         padding: 5px;
         }
     }
@@ -38,6 +39,7 @@ footer{
         display: flex;
         align-content: center;
         flex-wrap: wrap;
+        color: white;
     }
     .logos{
         width: 20px;
@@ -68,7 +70,8 @@ main{
     font-weight: bold;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    margin-top: 140px;
 }
 .vendidos{
     margin-top: 50px;

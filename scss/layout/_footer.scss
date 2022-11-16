@@ -6,18 +6,21 @@ footer{
     flex-direction: column-reverse;
     justify-content: flex-end;
     flex-wrap: wrap;
+    margin-top: 80px;
     p {
         display: flex;
         align-content: center;
         flex-wrap: wrap;
+        color: $color-text-primario;
     } 
     .logos{
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
         }
     .redes{
+    margin: 5px;
     display: flex;
-    justify-content: end;
+    justify-content: normal;
     align-content: flex-end;
     flex-wrap: wrap;
         }
